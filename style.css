@@ -17,19 +17,18 @@ body {
   background: rgb(0, 204, 255);
 }
 ul{
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
   list-style:none;
   font-size: 15px;
 }
 li{
-  background: #D3DEE5;
   align-items: center;
-  padding: 20px;
+  padding: 10px 5px;
   position: relative;
   overflow: hidden;
-  border-radius: 3px;
+  transition: .5s;
 }
 li::before{
   content: "";
@@ -65,10 +64,16 @@ li:hover::after{
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
+li:hover{
+  background: rgb(204, 197, 197);
+}
+
+
 nav{
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 nav a{
   text-decoration: none;
