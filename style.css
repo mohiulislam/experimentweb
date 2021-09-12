@@ -93,13 +93,13 @@ img {
  background:#D3DEE5;
  align-self: center;
  justify-self: center;
- min-width: 500px;
+ min-width: 80%;
 }
 
 #personal_text_section{
   width: calc(100% - 35%);
   justify-self: left;
-  min-width: 300px;
+  /* min-width: 300px; */
   padding-top: 50px;
   box-sizing: border-box;
 }
