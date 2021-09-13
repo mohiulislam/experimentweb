@@ -28,7 +28,7 @@ li{
   padding: 10px 5px;
   position: relative;
   overflow: hidden;
-  transition: .5s;
+  transition-property: background .5s;
 }
 li::before{
   content: "";
@@ -65,7 +65,7 @@ li:hover::after{
   border-top-left-radius: 5px;
 }
 li:hover{
-  background: rgb(204, 197, 197);
+  background: rgb(9, 177, 189);
 }
 
 
